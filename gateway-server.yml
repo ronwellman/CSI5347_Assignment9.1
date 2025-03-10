@@ -32,6 +32,10 @@ spring:
           uri: https://www.google.com
           predicates:
           - Path=/google
+        - id: baylor
+          uri: https://www.baylor.edu/
+          predicates:
+          - Path=/baylor
         discovery.locator:
           enabled: true
           lowerCaseServiceId: true
