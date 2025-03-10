@@ -28,6 +28,8 @@ spring:
           - Path=/license/**
           filters:
           - RewritePath=/license/(?<path>.*), /$\{path}
+        - id: google
+          uri: https://www.google.com
         discovery.locator:
           enabled: true
           lowerCaseServiceId: true
